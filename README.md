@@ -32,7 +32,7 @@ Puedes levantar el servidor de la siguiente manera:
 
 ```bash
 npm run start:dev
-``` <-- AQUÍ LO CERRAMOS
+```
 
 El servicio estará disponible en: `http://localhost:3001`
 
