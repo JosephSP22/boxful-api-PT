@@ -36,7 +36,6 @@ npm run start:dev
 
 El servicio estará disponible en: `http://localhost:3001`
 
----
 
 # Guía de Testing de la API
 
