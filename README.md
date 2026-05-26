@@ -32,10 +32,9 @@ Puedes levantar el servidor de la siguiente manera:
 
 ```bash
 npm run start:dev
-
+``` <-- AQUÍ LO CERRAMOS
 
 El servicio estará disponible en: `http://localhost:3001`
-
 
 # Guía de Testing de la API
 
@@ -44,6 +43,7 @@ El servicio estará disponible en: `http://localhost:3001`
 1. Asegúrate de tener el servidor corriendo:
    ```bash
    npm run start:dev
+
    ```
 2. En Postman, crea una **variable de colección** llamada `base_url` con valor `http://localhost:3001/api`
 3. Crea otra variable llamada `token`
@@ -116,11 +116,6 @@ El servicio estará disponible en: `http://localhost:3001`
 }
 ```
 
-> [!TIP]
-> Prueba errores también:
-> - Email incorrecto → `401 Unauthorized: "Credenciales inválidas"`
-> - Password incorrecto → `401 Unauthorized: "Credenciales inválidas"`
-> - Registro con email duplicado → `409 Conflict: "El email ya está registrado"`
 
 ---
 
